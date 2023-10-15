@@ -1,5 +1,4 @@
 # CracklePop for RC
-## Oct 15 2023
 
 ### Details
 Prints out numbers 1 to the upper bound (inclusive). If divisible by 3, prints out "Crackle" in place of the number. If divisible by 5, prints out "Pop". If divisible by both 3 and 5, prints out "CracklePop".
