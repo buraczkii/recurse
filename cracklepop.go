@@ -21,6 +21,8 @@ func main() {
 		n, err := strconv.Atoi(arg)
 		if err != nil {
 			fmt.Println(".. error reading input, using default value")
+		} else if n < 0 {
+			fmt.Println(".. error: only accepts positive values, using default value")
 		} else {
 			ub = n
 		}
